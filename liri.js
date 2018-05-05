@@ -70,10 +70,10 @@ var spotifythissong = function(song){
 //GET THE SONG DATA, CAN'T GET THE ARTIST'S NAME RIGHT NOW
         for(var i = 0; i<10; i++){
             console.log("Result #: " + i);
-            console.log(songdata[i].album.artists[0].name);
-            console.log(songdata[i].name);
-            console.log(songdata[i].album.name);
-            console.log(songdata[i].album.release_date);
+            console.log("Artist Name: " + songdata[i].album.artists[0].name);
+            console.log("Track Name: " + songdata[i].name);
+            console.log("Album Name: " + songdata[i].album.name);
+            console.log("Release Date: " + songdata[i].album.release_date);
 
 
             
